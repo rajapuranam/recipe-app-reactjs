@@ -1,7 +1,7 @@
 # Recipe App using ReactJS
 
-### `Live Demo`
-[Recipe app](https://competent-newton-765927.netlify.app)
+#### [`Live Demo`](https://competent-newton-765927.netlify.app)
+<!-- [Recipe app](https://competent-newton-765927.netlify.app) -->
 
 Recipe app getting data from **Edamam api**
 [Edamam Api](https://developer.edamam.com/edamam-recipe-api)
