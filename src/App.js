@@ -4,7 +4,7 @@ import Searchbar from "./components/Searchbar";
 import Recipe from "./components/Recipe";
 import Categories from "./components/Categories";
 import ScrollToTop from "./components/ScrollToTop";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const App = () => {
