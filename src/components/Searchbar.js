@@ -3,7 +3,6 @@ import style from '../css modules/searchbar.module.css';
 import AllRecipies from './AllRecipies';
 import QuickCategory from './QuickCategory';
 import {Link} from 'react-router-dom';
-// require('dotenv').config();
 
 const Searchbar = () => {
     const APP_ID = process.env.REACT_APP_ID;

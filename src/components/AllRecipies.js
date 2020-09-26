@@ -2,7 +2,6 @@ import React, {useEffect} from "react";
 import style from "../css modules/recipiesList.module.css";
 import { Link } from "react-router-dom";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-// import ScrollToTop from "./ScrollToTop";
 
 function AllRecipies({ recipies }) {
   useEffect(() => {
@@ -10,7 +9,6 @@ function AllRecipies({ recipies }) {
   }, [])
   return (
     <div>
-    {/* <ScrollToTop/> */}
       <ol className={style.gradientlist}>
         {recipies.map((recipe) => (
           <li key={recipe.recipe.label} className={style.flexcontainer}>

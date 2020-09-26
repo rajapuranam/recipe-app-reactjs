@@ -61,7 +61,6 @@ function Categories() {
       <Link to='/'><p className={style.gotohome}>Go to Home</p></Link>
       <br style={{clear:"both"}} />
 
-
       {showcategory ? (
         <div className={style.grid}>
           {categories.map((category) => (
@@ -82,25 +81,3 @@ function Categories() {
 }
 
 export default Categories;
-
-// function Category({ name, onClick }) {
-//   let imageurl;
-//   if (
-//     name === "Burgers" ||
-//     name === "Chicken" ||
-//     name === "Pies" ||
-//     name === "Salads" ||
-//     name === "Sausages"
-//   )
-//     imageurl = `/images/${name.toLowerCase()}.png`;
-//   else imageurl = `/images/${name.toLowerCase()}.jpg`;
-
-//   return (
-//     <>
-//       <div className={style.category} onClick={onClick}>
-//         <img src={process.env.PUBLIC_URL + imageurl} alt={name} />
-//         <p>{name}</p>
-//       </div>
-//     </>
-//   );
-// }

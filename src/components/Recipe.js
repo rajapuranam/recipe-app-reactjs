@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../css modules/recipe.module.css";
 import {Link} from 'react-router-dom';
-// import ScrollToTop from "./ScrollToTop";
 
 function Recipe(props) {
   const recipe = props.location.state;
@@ -17,9 +16,7 @@ function Recipe(props) {
       <Link to='/categories'><p className={style.links}>Show All Categories</p></Link>
       <br style={{clear:"both"}} />
 
-
       <div className={style.container}>
-        {/* <ScrollToTop/> */}
         <div className={style.details}>
           <img src={recipe.image} alt="" className={style.image} />
           <div className={style.righttext}>
