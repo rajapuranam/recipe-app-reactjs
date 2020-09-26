@@ -10,7 +10,6 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 const App = () => {
   return (
     <div className="App">
-      {/* <BrowserRouter> */}
         <ScrollToTop />
         <Route
           render={({ location }) => (
@@ -25,7 +24,6 @@ const App = () => {
             </TransitionGroup>
           )}
         />
-      {/* </BrowserRouter> */}
     </div>
   );
 };

@@ -1,74 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .grid {
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
 }
 
-.category{
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 15px 10px;
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 10px;
 }
 
-.category img{
-    width: 230px;
-    height: 180px;
-    border-radius: 10%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: all 0.3s ease-in-out;
+.category img {
+  width: 230px;
+  height: 180px;
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.3s ease-in-out;
 }
 
 .category img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
-.category p{
-	font-family: 'Roboto', sans-serif;
-    font-size: 22px;
-    font-weight: 500;
-    color: whitesmoke;
-    padding-top: 15px;
+.category p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: whitesmoke;
+  padding-top: 15px;
 }
 .heading {
-    margin-top: 30px;
-    padding: 55px 10px 0px 10px;
-    font-family: "Baloo Tammudu 2", cursive;
-    font-size: 4.4rem;
-    color: white;
-    text-align: center;
-    line-height: 54px;
-  }
-  
-  .tagline {
-    color: whitesmoke;
-    font-size: 24px;
-    font-family: "Satisfy", cursive;
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
-  .divider{
-    border-bottom: 2px solid grey;
-    width: 100px;
-    margin: 13px auto;
+  margin-top: 30px;
+  padding: 55px 10px 0px 10px;
+  font-family: "Baloo Tammudu 2", cursive;
+  font-size: 4.4rem;
+  color: white;
+  text-align: center;
+  line-height: 54px;
 }
 
-.gotohome{
-    font-family: "Montserrat", sans-serif;
+.tagline {
+  color: whitesmoke;
+  font-size: 24px;
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.divider {
+  border-bottom: 2px solid grey;
+  width: 100px;
+  margin: 13px auto;
+}
+
+.gotohome {
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
   font-weight: 600;
   color: whitesmoke;
   padding-top: 15px;
   padding-left: 15px;
-  /* margin-bottom: 20px; */
   cursor: pointer;
   text-decoration: underline;
   float: right;
